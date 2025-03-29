@@ -1,0 +1,34 @@
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Configurações do IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.cache
+.DS_Store
+
+# Dependências do Poetry/Pipenv (caso use)
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Arquivos de credenciais (importante para segurança)
+.env
+*.key
+*.pem
+config/settings_local.py
